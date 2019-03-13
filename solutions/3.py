@@ -11,9 +11,7 @@ def ls(s):
     if len(s) - b > m:
         mb = b
         me = len(s) - 1
-    print(mb)
-    print(me)
-    print(s)
     return s[mb : me]
 
-print(ls("akeefgbca"))
+f = open("../inputs/3").read()
+print(f)
